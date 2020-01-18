@@ -1,0 +1,26 @@
+enchmark         actual_size/baseline         actual_size
+---------         --------------------         -----------
+aha-mont64            0.47                         498
+crc32                 1.15                         264
+cubic                 0.54                       1,344
+edn                   1.06                       1,546
+huffbench             1.03                       1,684
+matmult-int           1.21                         508
+minver                1.07                       1,152
+nbody                 1.02                         720
+nettle-aes            1.07                       3,070
+nettle-sha256         1.07                       5,972
+nsichneu              1.05                      15,806
+picojpeg              1.08                       8,694
+qrduino               1.09                       6,606
+sglib-combined        1.05                       2,440
+slre                  1.07                       2,610
+st                    0.84                         742
+statemate             1.05                       3,868
+ud                    1.17                         822
+wikisort              1.06                       4,458
+---------           -----
+Geometric mean       0.98
+Geometric SD         1.27
+Geometric range      0.47
+All benchmarks sized successfully
