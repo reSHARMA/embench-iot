@@ -4,19 +4,19 @@
    -gc-sections. */
 
 double
-__floatdidf (double x __attribute__ ((unused)), double x __attribute__ ((unused)))
+__floatdidf (double x __attribute__ ((unused)), double y __attribute__ ((unused)))
 {
   return 0.0;
 }
 
 double
-__fixdfdi (double x __attribute__ ((unused)), double x __attribute__ ((unused)))
+__fixdfdi (double x __attribute__ ((unused)), double y __attribute__ ((unused)))
 {
   return 0.0;
 }
 
 double
-__floatundidf (double x __attribute__ ((unused)), double x __attribute__ ((unused)))
+__floatundidf (double x __attribute__ ((unused)), double y __attribute__ ((unused)))
 {
   return 0.0;
 }
