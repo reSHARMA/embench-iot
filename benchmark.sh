@@ -12,5 +12,6 @@ python3 build_all.py --cc $1 --ld /rvtc/gnu_install/bin/riscv32-unknown-elf-gcc 
 python3 benchmark_size.py > $3
 
 sed -i -e 's/,//g' $3
+sed -i -e 's/;/,/g' $3
 sed -i -e 's/ //g' $3
 head -n 17 $3 >> /rvtc/size.csv

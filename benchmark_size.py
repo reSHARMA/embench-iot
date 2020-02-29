@@ -221,7 +221,7 @@ def collect_data(benchmarks):
             output = f'  {rel_data[bench]:6.2f}'
         raw_output = f'  {raw_data[bench]:8,}'
        #log.info(f'{bench:15}   {output:8}                  {raw_output:8}')
-        log.info(f'{bench:15},{raw_output:8}')
+        log.info(f'{bench:15};{raw_output:8}')
 
     if successful:
         return raw_data, rel_data
